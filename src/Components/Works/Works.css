@@ -1,0 +1,163 @@
+.works{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+}
+
+/* right side */
+.w-right{
+    position: relative;
+}
+.w-mainCircle{
+    left: 260px;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    background: white;
+    top: 50px;
+    z-index: 2;
+}
+
+.w-mainCircle > *{
+    position: absolute;
+}
+
+.w-mainCircle > :nth-child(1){
+    top: -57px;
+    left: 170px;
+}
+.w-mainCircle > :nth-child(2){
+    top: 176px;
+    left: -51px;
+}
+.w-mainCircle > :nth-child(3){
+    top: 174px;
+    left: 170px;
+}
+.w-mainCircle > :nth-child(4){
+    top: 176px;
+    left: 393px;
+}
+.w-mainCircle > :nth-child(5){
+    top: 396px;
+    left: 170px;
+}
+
+.w-secCircle{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: "none";
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+
+.w-secCircle > img{
+    transform: scale(0.7);
+}
+
+.w-backCircle{
+    position: absolute;
+    height: 330px;
+    width: 330px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.bluecircle{
+    background: #1949B8;
+    left: 496px;
+    top: -2px;
+}
+
+.yellowcircle{
+    background: #F5C32C;
+    left: 507px;
+    top: 272px;
+}
+
+@media screen and (max-width: 480px) {
+    .works{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .awesome > span:nth-of-type(1){
+        font-size: 40px;
+    }
+    .awesome > span:nth-of-type(2){
+        font-size: 40px;
+    }
+
+    .w-mainCircle{
+        left: 40px;
+        top: 100px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .w-secCircle{
+        height: 90px;
+        width: 90px;
+    }
+
+    .w-secCircle > img {
+        transform: scale(0.6);
+    }
+
+    .w-mainCircle > :nth-child(1) {
+        top: -42px;
+        left: 100px;
+    }
+
+    .w-mainCircle > :nth-child(2) {
+        top: 92px;
+        left: -37px;
+    }
+
+    .w-mainCircle > :nth-child(3) {
+        top: 92px;
+        left: 100px;
+    }
+    .w-mainCircle > :nth-child(4) {
+        top: 92px;
+        left: 236px;
+    }
+    .w-mainCircle > :nth-child(5) {
+        top: 229px;
+        left: 100px;
+    }
+
+    .w-backCircle{
+        height: 200px;
+        width: 200px;
+    }
+
+    .bluecircle {
+        left: 182px;
+        top: 80px;
+    }
+    .yellowcircle {
+        left: 182px;
+        top: 222px;
+    }
+
+    .s-blur1 {
+        top: -14rem;
+        left: 14rem;
+    }
+    .w-right {
+        position: relative;
+        top: 80px;
+    }
+}
