@@ -4,7 +4,7 @@ import HeartEmoji from '../../image/heartemoji.png'
 import Glasses from '../../image/glasses.png'
 import Humble from '../../image/humble.png'
 import Card from '../Card/Card'
-import Resume from './resume.pdf'
+import Resume from './CV_DanteClericuzio.pdf'
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
