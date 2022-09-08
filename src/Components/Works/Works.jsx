@@ -32,7 +32,10 @@ const Works = () => {
                 <br/>
                 Lorem ispum is simpley dummy text of printing of printing Lorem
             </span>
-            <button className="button s-button">Hire me</button>
+
+            <a href="https://wa.me/62818589669">
+                <button className="button s-button">Hire me</button>
+            </a>
             
             <div className='blur s-blur1' style={{background: "#ABF1FF94"}}></div>
         </div>

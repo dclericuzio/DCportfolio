@@ -40,11 +40,11 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <Link to="contact" spy={true} smooth={true}>
+                <a href="https://wa.me/62818589669">
                 <button className="button n-button">
                     Contact us
                 </button>
-            </Link>
+                </a>
         </div>
     </div>
   )

@@ -12,9 +12,19 @@ const Footer = () => {
         <div className="f-content">
             <span>Danteclericuzio1999@gmail.com</span>
             <div className="f-icons">
+
+              <a href="https://www.instagram.com/danteclericuzioo/">
                 <Insta color='white' size='3rem'/>
+              </a>
+
+              <a href="https://www.linkedin.com/in/dante-clericuzio-1b9345241/">
                 <Linked color='white' size='3rem'/>
+              </a>
+
+              <a href="https://github.com/dclericuzio?tab=repositories">
                 <Github color='white' size='3rem'/>
+              </a>
+                
             </div>
         </div>
     </div>

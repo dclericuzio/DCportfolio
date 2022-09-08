@@ -32,16 +32,18 @@ const Intro = () => {
                 Quality work</span>
             </div>
 
-            <button className='button i-button'>Hire me</button>
-
+            <a href="https://wa.me/62818589669">
+                <button className='button i-button'>Hire me</button>
+            </a>
+            
             <div className="i-icons">
-                <a href="#">
+                <a href="https://github.com/dclericuzio?tab=repositories">
                     <img src={Github} alt='Github logo'/>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/dante-clericuzio-1b9345241/">
                     <img src={LinkedIn} alt='LinkedIn logo'/>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/danteclericuzioo/">
                     <img src={Instagram} alt='Instagram logo'/>
                 </a>
             </div>
